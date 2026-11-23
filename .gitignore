@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+._*
+
+# Runtime logs & generated outputs
+studio.log
+*.log
+outputs/
+*.mp4
+*.mov
+*.mkv
+*.avi
+
+# Large model weights & CoreML caches (download separately)
+models/
+*.onnx
+*.pth
+*.pt
+*.mlmodelc/
+.coreml_cache/
